@@ -2,8 +2,6 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 from preprocess import create_generators
 
-
-
 # Get the current directory of train.py
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -18,6 +16,7 @@ test_dir = os.path.join(base_dir, 'data','chest_xray', 'test')
 model_dir = os.path.join(base_dir, 'saved_models', 'advance_model.keras')
 history_dir = os.path.join(base_dir, 'saved_models', 'advancement_history.pkl')
 fig_dir = os.path.join(base_dir, 'saved_models', 'training_validation_plots.png')
+
 # Load the best model
 model = load_model(model_dir)
 
