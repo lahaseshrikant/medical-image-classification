@@ -198,9 +198,6 @@ python app.py
 ```
 2. Access the web app: Open your browser and go to http://127.0.0.1:5000/. You will see a web interface where you can upload an X-ray image, and the model will classify the image as either "Pneumonia" or "Normal".
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
@@ -214,5 +211,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries or collaboration opportunities, feel free to reach out:
-Email: [shrikantlahse143@gmail.com]
-GitHUB: [https://github.com/lahaseshrikant]
+- Email: [shrikantlahse143@gmail.com]
+- GitHUB: [https://github.com/lahaseshrikant]
