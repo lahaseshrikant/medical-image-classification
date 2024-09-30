@@ -159,11 +159,11 @@ This will output the model's accuracy, loss, and other relevant metrics on the t
 - **Early Stopping**: Stops the training process once the validation loss stops improving.
 - **Model Checkpointing**: Saves the best model based on validation performance.
 
-### Example of Callbacks in Code
+### Callbacks in Code
 
 ```python
 early_stopping = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
-model_checkpoint = ModelCheckpoint('saved_models/advance_model.keras', save_best_only=True, monitor='val_loss')
+model_checkpoint = ModelCheckpoint(model_path, save_best_only=True, monitor='val_loss')
 ```
 
 ---
@@ -174,13 +174,13 @@ model_checkpoint = ModelCheckpoint('saved_models/advance_model.keras', save_best
 
 Both models were evaluated on accuracy, loss, and confusion matrix metrics. The results showed that the **tuned model** significantly outperforms the baseline model.
 
-### Example Results (for tuned model)
+### Results (for tuned model)
 
 - **Training Accuracy**: 94.7%
 - **Validation Accuracy**: 91.5%
 - **Test Accuracy**: 90.2%
 
-### Example Plots
+### Plots
 
 You can visualize the training and validation performance using the plots generated during training:
 
@@ -192,19 +192,15 @@ You can visualize the training and validation performance using the plots genera
 This project includes a Flask web application where users can upload chest X-ray images and receive a prediction of whether the patient has pneumonia.
 
 **Steps to Run the Web Application**
-1. Navigate to the web app directory:
-```python
-cd web_app
-```
-2. Run the Flask app:
+1. Run the Flask app:
 ```python
 python app.py
 ```
-3. Access the web app: Open your browser and go to http://127.0.0.1:5000/. You will see a web interface where you can upload an X-ray image, and the model will classify the image as either "Pneumonia" or "Normal".
+2. Access the web app: Open your browser and go to http://127.0.0.1:5000/. You will see a web interface where you can upload an X-ray image, and the model will classify the image as either "Pneumonia" or "Normal".
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
@@ -217,4 +213,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-For further inquiries, please reach out to [shrikantlahse434@gmail.com].
+For any inquiries or collaboration opportunities, feel free to reach out:
+Email: [shrikantlahse143@gmail.com]
+GitHUB: [https://github.com/lahaseshrikant]
