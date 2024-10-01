@@ -176,9 +176,9 @@ Both models were evaluated on accuracy, loss, and confusion matrix metrics. The 
 
 ### Results (for tuned model)
 
-- **Training Accuracy**: 94.7%
-- **Validation Accuracy**: 91.5%
-- **Test Accuracy**: 90.2%
+- **Training Accuracy**: 93.67 %
+- **Validation Accuracy**: 87.50%
+- **Test Accuracy**: 90.54%
 
 ### Plots
 
